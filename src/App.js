@@ -32,7 +32,7 @@ function App() {
         <section className="about-us">
           <h2>¿Quienes somos?</h2>
           <p>
-            Aquíii puedes inventarte datos sobre la comunidad residencial Los Robles, poner datos geográficos y hablar bien de la comunidad. Podemos inventarlo por ser algo ficticio, es solo para ir rellenando. De preferencia un párrafo o dos de información.
+            Aqu puedes inventarte datos sobre la comunidad residencial Los Robles, poner datos geográficos y hablar bien de la comunidad. Podemos inventarlo por ser algo ficticio, es solo para ir rellenando. De preferencia un párrafo o dos de información.
           </p>
           <div className="image-placeholder">
             <p>Espacio para colocar una imagen, ayúdame a reservar el espacio y dejar listo para el hipervínculo plz</p>
