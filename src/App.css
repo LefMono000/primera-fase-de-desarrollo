@@ -1,38 +1,119 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #ccc;
+  padding: 0 20px;
+}
+
+.top-bar {
+  text-align: right;
+  padding: 10px;
+}
+
+.top-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+
+.header-image {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover; 
+}
+
+.nav {
+  background-color: #6d4c41;
+  padding: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+
+.nav ul li {
+  margin: 0 15px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.nav ul li a:hover {
+  transform: scale(1.2);
+}
+
+.main-content {
+  padding: 30px;
+  text-align: center;
+}
+
+.about-us {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.about-us h2 {
+  color: #d2691e;
+  font-size: 28px;
+}
+
+.about-us p {
+  font-size: 18px;
+  color: #333;
+}
+
+.image-placeholder {
+  border: 2px dashed #ccc;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer p {
+  margin: 0;
+  font-size: 14px;
 }
