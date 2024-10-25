@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          Jimmy eres un reverendo pendejo. Viva Cioccolata y las manboobs.
+          Jimmy eres un reverendo pendejo. Viva Cioccolata y sus tetotas.
         </h1>
         <a
           className="App-link"
