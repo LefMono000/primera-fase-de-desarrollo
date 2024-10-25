@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './App.css';
 import image from './banner.png';
 import image2 from './Colonia1.png';
