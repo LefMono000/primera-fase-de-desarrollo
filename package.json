@@ -2,7 +2,7 @@
   "name": "primera-fase-de-desarrollo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://LefMono000.github.io/primera-fase-de-desarrollo",
+  "homepage": "https://lefmono000.github.io/primera-fase-de-desarrollo/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
