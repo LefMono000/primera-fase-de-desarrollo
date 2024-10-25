@@ -1,11 +1,10 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.App {
+.access {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -43,7 +42,7 @@ body {
   width: 100%;
   height: auto;
   max-height: 300px;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .nav {
@@ -84,26 +83,30 @@ body {
   margin: 20px auto;
   max-width: 800px;
 }
-
-.about-us h2 {
-  color: #d2691e;
-  font-size: 28px;
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
 }
 
-.about-us p {
-  font-size: 18px;
-  color: #333;
+.text-section {
+  flex: 1;
+  padding-right: 20px;
 }
 
-.image-placeholder {
-  border: 2px dashed #ccc;
-  border-radius: 50%;
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
   width: 200px;
   height: 200px;
-  margin: 20px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .footer {
@@ -117,3 +120,26 @@ body {
   margin: 0;
   font-size: 14px;
 }
+.announcements-section {
+  margin-top: 30px;
+}
+
+.announcement {
+  border: 1px solid #8C8C8C;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #F5F5F5;
+}
+
+.announcement p {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: 'Arial', sans-serif;
+  color: #B5651D;
+}
+
